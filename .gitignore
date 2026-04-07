@@ -1,7 +1,18 @@
-echo ".idea/
-bin/
-out/
+# IntelliJ & IDEs
+.idea/
+*.iml
 .settings/
 .classpath
 .project
-*.class" > .gitignore
+
+# Build outputs
+target/
+out/
+bin/
+
+# Compiled files
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db
