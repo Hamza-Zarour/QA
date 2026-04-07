@@ -1,0 +1,7 @@
+echo ".idea/
+bin/
+out/
+.settings/
+.classpath
+.project
+*.class" > .gitignore
